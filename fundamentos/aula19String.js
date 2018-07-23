@@ -8,7 +8,7 @@ console.log(escola.indexOf('d')) //índice que se encontra o caracter "d"
 console.log(escola.substring(1)) //caracteres a partir do índice 1
 console.log(escola.substring(0,3)) //caracteres a partir do indice 0 e menor que indice 3 sem incluir o 3
 
-console.log('Escola '.concat(escola).concat("!")) // concatenar
+console.log('Escola '.concat(escola).concat("!")) // concatenar, pode ser usado o sinal  "+" também
 console.log(escola.replace(3, 'e')) //substitui o caractere na exibição
 
 console.log(escola.replace(/\d/,'e')) //expressão regular, substitui o primeiro número pela letra "e"
